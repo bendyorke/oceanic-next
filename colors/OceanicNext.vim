@@ -47,24 +47,24 @@ let s:cterm0E = "176"
 let s:cterm0F = "137"
 let s:ctermWhite = "15"
 
-let g:terminal_color_0='#1b2b34'
-let g:terminal_color_1='#ed5f67'
-let g:terminal_color_2='#9ac895'
-let g:terminal_color_3='#fbc963'
-let g:terminal_color_4='#669acd'
-let g:terminal_color_5='#c695c6'
-let g:terminal_color_6='#5fb4b4'
-let g:terminal_color_7='#c1c6cf'
-let g:terminal_color_8='#65737e'
-let g:terminal_color_9='#fa9257'
-let g:terminal_color_10='#343d46'
-let g:terminal_color_11='#4f5b66'
-let g:terminal_color_12='#a8aebb'
-let g:terminal_color_13='#ced4df'
-let g:terminal_color_14='#ac7967'
-let g:terminal_color_15='#d9dfea'
-let g:terminal_color_background='#1b2b34'
-let g:terminal_color_foreground='#c1c6cf'
+let g:terminal_color_0= s:gui00
+let g:terminal_color_1= s:gui08
+let g:terminal_color_2= s:gui0B
+let g:terminal_color_3= s:gui0A
+let g:terminal_color_4= s:gui0D
+let g:terminal_color_5= s:gui0E
+let g:terminal_color_6= s:gui0C
+let g:terminal_color_7=s:gui05
+let g:terminal_color_8=s:gui03
+let g:terminal_color_9= s:gui09
+let g:terminal_color_10=s:gui01
+let g:terminal_color_11=s:gui02
+let g:terminal_color_12=s:gui04
+let g:terminal_color_13=s:gui06
+let g:terminal_color_14= s:gui0F
+let g:terminal_color_15=s:guiWhite
+let g:terminal_color_background= s:gui00
+let g:terminal_color_foreground=s:gui05
 
 " Theme setup
 hi clear
