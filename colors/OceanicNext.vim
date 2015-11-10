@@ -1,8 +1,8 @@
 " GUI color definitions
-if exists("g:oceanic_next_legacy_blue")
-  let s:gui00 = '162838'
-else
+if exists("g:oceanic_next_greyscale")
   let s:gui00 = '141e23'
+else
+  let s:gui00 = '162838'
 endif
 let s:gui01 = '343d46'
 let s:gui02 = '4f5b66'
