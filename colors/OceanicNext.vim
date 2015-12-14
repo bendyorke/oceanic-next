@@ -20,6 +20,7 @@ let s:gui0D = '6699cc'
 let s:gui0E = 'c594c5'
 let s:gui0F = 'ab7967'
 let s:guiWhite = 'ffffff'
+let s:guiOrange = 'ffa726'
 
 
 if &background == "light"
@@ -46,6 +47,7 @@ let s:cterm0D = "68"
 let s:cterm0E = "176"
 let s:cterm0F = "137"
 let s:ctermWhite = "15"
+let s:ctermOrange = "208"
 
 let g:terminal_color_0= s:gui00
 let g:terminal_color_1= s:gui08
@@ -152,14 +154,14 @@ call <sid>hi("ErrorMsg",      s:gui08, s:gui00, s:cterm08, s:cterm00, "")
 call <sid>hi("Exception",     s:gui08, "", s:cterm08, "", "")
 call <sid>hi("FoldColumn",    "", s:gui01, "", s:cterm01, "")
 call <sid>hi("Folded",        s:gui03, s:gui01, s:cterm03, s:cterm01, "")
-call <sid>hi("IncSearch",     s:gui01, s:gui09, s:cterm01, s:cterm09, "none")
+call <sid>hi("IncSearch",     s:gui00, s:guiOrange, "", s:ctermOrange, "none")
 call <sid>hi("Italic",        "", "", "", "", "none")
 call <sid>hi("Macro",         s:gui08, "", s:cterm08, "", "")
 call <sid>hi("MatchParen",    s:gui00, s:gui03, s:cterm00, s:cterm03,  "")
 call <sid>hi("ModeMsg",       s:gui0B, "", s:cterm0B, "", "")
 call <sid>hi("MoreMsg",       s:gui0B, "", s:cterm0B, "", "")
 call <sid>hi("Question",      s:gui0D, "", s:cterm0D, "", "")
-call <sid>hi("Search",        'NONE', "ffa726", s:cterm03, s:cterm0A,  "")
+call <sid>hi("Search",        s:guiOrange, "NONE", s:ctermOrange, "",  "")
 call <sid>hi("SpecialKey",    s:gui03, "", s:cterm03, "", "")
 call <sid>hi("TooLong",       s:gui08, "", s:cterm08, "", "")
 call <sid>hi("Underlined",    s:gui08, "", s:cterm08, "", "")
